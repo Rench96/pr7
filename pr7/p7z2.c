@@ -15,7 +15,7 @@ int main(void)
 {
     int simvol;
     int kol = 0, vsego = 0;
-    printf("Введите текст (конец ввода: Ctrl+D в Linux, Ctrl+Z в Windows):\n");
+    printf("Введите текст:\n");
     while ((simvol = getchar()) != EOF)
     {
         vsego++;
