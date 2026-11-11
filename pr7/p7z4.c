@@ -12,7 +12,7 @@ void pereschet(double *pervoe, double *vtoroe, double *trete)
         minim = *vtoroe;
     if (*trete < minim)
         minim = *trete;
-    sred = (*pervoe + *vtoroe + *trete) / 3;
+    sred = *pervoe + *vtoroe + *trete - maks - minim;
     *pervoe = maks;
     *vtoroe = minim;
     *trete = sred;
